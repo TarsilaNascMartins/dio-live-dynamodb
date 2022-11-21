@@ -1,5 +1,7 @@
 # dio-live-dynamodb
-Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
+## Repositório para o DESAFIO de Amazon DynamoDB - UNIMED BH
+
+![1_cmfoGi3FnVIBCwvmVLYgjg](https://user-images.githubusercontent.com/99733390/202943148-a36a5a6e-15d5-4614-af0f-649a50146430.png)
 
 ### Serviço utilizado
   - Amazon DynamoDB
@@ -99,7 +101,7 @@ aws dynamodb query \
     --table-name Music \
     --index-name AlbumTitle-index \
     --key-condition-expression "AlbumTitle = :name" \
-    --expression-attribute-values  '{":name":{"S":"Fear of the Dark"}}'
+    --expression-attribute-values  '{":name":{"S":"Fearless"}}'
 ```
 
 - Pesquisa pelo index secundário baseado no nome do artista e no título do álbum
@@ -109,7 +111,7 @@ aws dynamodb query \
     --table-name Music \
     --index-name ArtistAlbumTitle-index \
     --key-condition-expression "Artist = :v_artist and AlbumTitle = :v_title" \
-    --expression-attribute-values  '{":v_artist":{"S":"Iron Maiden"},":v_title":{"S":"Fear of the Dark"} }'
+    --expression-attribute-values  '{":v_artist":{"S":"Taylor Swift"},":v_title":{"S":"Fearless"} }'
 ```
 
 - Pesquisa pelo index secundário baseado no título da música e no ano
@@ -119,5 +121,11 @@ aws dynamodb query \
     --table-name Music \
     --index-name SongTitleYear-index \
     --key-condition-expression "SongTitle = :v_song and SongYear = :v_year" \
-    --expression-attribute-values  '{":v_song":{"S":"Wasting Love"},":v_year":{"S":"1992"} }'
+    --expression-attribute-values  '{":v_song":{"S":"love story"},":v_year":{"S":"2008"} }'
 ```
+
+![tumblr_0f559e11e0817e6387babceceea93144_dc374c07_500](https://user-images.githubusercontent.com/99733390/202943486-0c909352-d12a-435b-a1bb-14e30107a068.gif)
+ 
+
+
+
