@@ -1,6 +1,6 @@
 {
-  "Artist": {"S": "Iron Maiden"},
-  "SongTitle": {"S": "Chains of Misery"},
-  "AlbumTitle": {"S": "Fear of the Dark"},
-  "SongYear": {"S": "1992"}
+  "Artist": {"S": "Taylor Swift"},
+  "SongTitle": {"S": "shake it off"},
+  "AlbumTitle": {"S": "1989"},
+  "SongYear": {"S": "2014"}
 }
