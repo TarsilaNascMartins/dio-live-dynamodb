@@ -3,30 +3,30 @@
         {
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Wasting Love"},
-                  "AlbumTitle": {"S": "Fear of the Dark Live"},
-                  "SongYear": {"S": "1992"}
+                  "Artist": {"S": "Taylor Swift"},
+                  "SongTitle": {"S": "shake it off"},
+                  "AlbumTitle": {"S": "1989"},
+                  "SongYear": {"S": "2014"}
                 }
             }
         },
         {
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Weekend Warrior"},
-                  "AlbumTitle": {"S": "Fear of the Dark"},
-                  "SongYear": {"S": "1992"}
+                  "Artist": {"S": "Taylor Swift"},
+                  "SongTitle": {"S": "look what you made me do"},
+                  "AlbumTitle": {"S": "Reputation"},
+                  "SongYear": {"S": "2017"}
                 }
             }
         },
         {
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Fear of the Dark"},
-                  "AlbumTitle": {"S": "Fear of the Dark Tour"},
-                  "SongYear": {"S": "1992"}
+                  "Artist": {"S": "Taylor Swift"},
+                  "SongTitle": {"S": "love story"},
+                  "AlbumTitle": {"S": "Fearless"},
+                  "SongYear": {"S": "2008"}
                 }
             }
         }
